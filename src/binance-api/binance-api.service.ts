@@ -9,7 +9,7 @@ export class BinanceService {
     this.binanceApi = binanceApi;
   }
 
-  public async getExchangeInfo() {
+  public async exchangeInfo() {
     return await this.binanceApi.exchangeInfo();
   }
 
